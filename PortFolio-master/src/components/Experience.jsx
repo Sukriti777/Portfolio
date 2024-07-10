@@ -6,7 +6,7 @@ import javascript from "../../public/javascript.png";
 import oracle from "../../public/oracle.png";
 import spring from "../../public/spring.png";
 import springBoot from "../../public/springBoot.jpg";
-function Experiance() {
+function Experience() {
   const cardItem = [
     {
       id: 1,
@@ -20,39 +20,39 @@ function Experiance() {
     },
     {
       id: 3,
-      logo: java,
-      name: "Java",
+      logo: javascript,
+      name: "Javascript",
     },
     {
       id: 4,
-      logo: javascript,
-      name: "JavaScript",
+      logo: node,
+      name: "node.js",
     },
     {
       id: 5,
-      logo: oracle,
-      name: "Oracle",
+      logo: react,
+      name: "react.js",
     },
     {
       id: 6,
-      logo: spring,
-      name: "Spring",
+      logo: MongoDB,
+      name: "MongoDB",
     },
     {
       id: 7,
-      logo: springBoot,
-      name: "Spring Boot",
+      logo: express,
+      name: "Express.js",
     },
   ];
   return (
     <div
-      name="Experiance"
+      name="Experience"
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
     >
       <div>
         <h1 className="text-3xl font-bold mb-5">Experiance</h1>
         <p className="  ">
-          I've more than 2 years of experiance in below technologies.
+          I've more than 2 years of experience in below technologies.
         </p>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-7 my-3">
           {cardItem.map(({ id, logo, name }) => (
@@ -72,4 +72,4 @@ function Experiance() {
   );
 }
 
-export default Experiance;
+export default Experience;
